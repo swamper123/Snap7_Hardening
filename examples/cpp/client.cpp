@@ -271,7 +271,7 @@ void OrderCode()
      if (Check(res,"Catalog"))
      {
           printf("  Order Code : %s\n",Info.Code);
-          printf("  Version    : %u.%u.%u\n",(int)Info.V1,(int)Info.V2,(int)Info.V3);
+          printf("  Version    : %u.%u.%u\n",(unsigned int)Info.V1,(unsigned int)Info.V2,(unsigned int)Info.V3);
      };
 }
 //------------------------------------------------------------------------------
